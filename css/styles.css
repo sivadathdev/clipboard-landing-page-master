@@ -1,0 +1,57 @@
+:root {
+  --primary-color: hsl(171, 66%, 44%);
+  --secondary-color: hsl(233, 100%, 69%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Bai Jamjuree';
+}
+a {
+  text-decoration: none;
+}
+ /* Utilities */
+.btn {
+  display: inline-block;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: inset -1px -3px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+.btn:hover {
+  opacity: .8;
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+#header {
+  background: url('../images/bg-header-desktop.png') no-repeat center center/cover;
+  padding: 80px 0;
+}
+#header .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header h2{
+  color: hsl(210, 10%, 33%);
+  font-size: 3rem;
+  text-align: center;
+  margin: 30px 0;
+}
+#header p {
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+#header div {
+  text-align: center;
+  margin: 30px;
+}
