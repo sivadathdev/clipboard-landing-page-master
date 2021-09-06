@@ -10,10 +10,14 @@
 }
 body {
   font-family: 'Bai Jamjuree';
+  line-height: 2;
+  
 }
 a {
   text-decoration: none;
 }
+
+
  /* Utilities */
 .btn {
   display: inline-block;
@@ -31,6 +35,22 @@ a {
 .btn-secondary {
   background: var(--secondary-color);
 }
+
+.snippet-container {
+  text-align: center;
+}
+.snippet-container  h3{
+  color: hsl(210, 10%, 33%);
+  font-size: 2rem;
+}
+.snippet-container p {
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 60px;
+}
+
+
+/* Header */
+
 
 #header {
   background: url('../images/bg-header-desktop.png') no-repeat center center/cover;
@@ -54,4 +74,43 @@ a {
 #header div {
   text-align: center;
   margin: 30px;
+}
+
+/* Showcase */
+#showcase-options .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin: 0 30px;
+}
+#showcase-options .showcase-container .options-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+#showcase-options .showcase-container .options-container > div {
+  margin-bottom: 50px;
+}
+#showcase-options .showcase-container .options-container .option h5 {
+  color: hsl(210, 10%, 33%);
+  font-size: 22px;
+}
+#showcase-options .showcase-container .options-container .option p{
+  color: hsl(201, 11%, 66%);;
+}
+
+/* Any Device */
+
+#device  img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Menu items*/
+#menu .menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 20px;
 }
