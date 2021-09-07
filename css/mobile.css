@@ -1,0 +1,65 @@
+.btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.875rem;
+}
+#showcase-options .showcase-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+#showcase-options .showcase-container .showcase-img img {
+  width: 100%;
+}
+#showcase-options .showcase-container .options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#device  img{
+  width: 100%;
+}
+
+/*Menu items*/
+#menu .menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#menu .menu-container > div {
+  padding: 1.2rem 0;
+}
+
+/* Companies */
+#company .company-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#company .company-container > div {
+  padding: 3rem 0;
+}
+
+/* Footer */
+#footer {
+  height: 27rem;
+}
+#footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#footer .footer-container .logo-container {
+  padding: 1rem 0;
+}
+#footer .footer-container .socials {
+  padding: 2rem 0;
+}
