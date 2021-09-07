@@ -63,3 +63,27 @@
 #footer .footer-container .socials {
   padding: 2rem 0;
 }
+
+
+
+
+@media(min-width: 1000px) {
+  #showcase-options .showcase-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  #showcase-options .showcase-container .showcase-img img {
+    width: 100%;
+  }
+  #showcase-options .showcase-container .options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #device  img{
+    width: 100%;
+  }
+}
