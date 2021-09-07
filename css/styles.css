@@ -39,6 +39,7 @@ ul {
 }
 .btn:hover {
   opacity: .8;
+  overflow: hidden;
 }
 .btn-secondary {
   background: var(--secondary-color);
